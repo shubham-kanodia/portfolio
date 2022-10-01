@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "An action oriented software developer, having experience building production grade solutions in Machine Learning and Blockchain space."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,10 +46,10 @@ const skillsSection = {
   title: "Software Developer",
   subTitle: "A generalist specialised in Blockchain and Machine Learning",
   skills: [
-    emoji("⚡ Develop decentralised applications on Ethereum and other EVM based blockchains"),
     emoji(
-      "⚡ Find and build Machine Learning based solutions for automation"
+      "⚡ Develop decentralised applications on Ethereum and other EVM based blockchains"
     ),
+    emoji("⚡ Find and build Machine Learning based solutions for automation"),
     emoji(
       "⚡ Develop web applications using React for frontend and python based backend frameworks"
     )
@@ -99,7 +98,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "reactjs",
       fontAwesomeClassname: "fab fa-react"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -115,9 +114,8 @@ const educationInfo = {
       subHeader: "Bachelor of Technology - Computer Science",
       duration: "2016 - 2020",
       desc: "Achieved CGPA of 9.54/10",
-      descBullets: [
-      ]
-    },
+      descBullets: []
+    }
   ]
 };
 
@@ -183,7 +181,7 @@ const workExperiences = {
       desc: "Contributed on python based automation SDK and live-sync feature.",
       descBullets: [
         "Added support for live-sync (keeping source server data in sync with a backup server) in Commvault python SDK.",
-        "Worked with several cloud providers such as - AWS (Amazon Web Services), OCI (Oracle Cloud Infrastructure), GCP (Google Cloud Provider) and VMWare.",
+        "Worked with several cloud providers such as - AWS (Amazon Web Services), OCI (Oracle Cloud Infrastructure), GCP (Google Cloud Platform) and VMWare."
       ]
     }
   ]
@@ -349,8 +347,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to have a chat? Shoot me an email!",
+  subtitle: "Discuss a project or just want to have a chat? Shoot me an email!",
   email_address: "shubhamkanodia123@gmail.com"
 };
 
