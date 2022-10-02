@@ -150,8 +150,8 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "DappCamp",
-      company: "Software Developer / Mentor",
+      role: "Software Developer / Mentor",
+      company: "DappCamp",
       companylogo: require("./assets/images/dappcampLogo.jpeg"),
       date: "July 2020 – Present",
       desc: "Worked on designing and developing the DappCamp platform for asynchronous learning and automated evaluation.",
