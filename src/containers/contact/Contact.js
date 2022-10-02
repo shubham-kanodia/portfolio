@@ -45,7 +45,7 @@ export default function Contact() {
                 className="contact-detail-email"
                 href={"mailto:" + contactInfo.email_address}
               >
-                {contactInfo.email_address}
+                shubhamkanodia123@gmail.com
               </a>
               <br />
               <br />

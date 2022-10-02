@@ -23,7 +23,7 @@ const greeting = {
   username: "Shubham",
   title: "Hey, I'm Shubham",
   subTitle: emoji(
-    "An action oriented software developer, having experience building production grade solutions in Machine Learning and Blockchain space."
+    "An action oriented software developer, having experience building production grade solutions in Machine Learning and Blockchain."
   ),
   resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
